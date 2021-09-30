@@ -68,6 +68,7 @@ if (track.getAttribute("nodownload") != null) {
 }
 if (track.getAttribute("infinite") != null) {
     o('.ap_time').style.display = 'none';
+    o('.ap_loop').style.display = 'none';
 }
 
 function ap_download() {
