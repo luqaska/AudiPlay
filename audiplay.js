@@ -66,6 +66,9 @@ function change_duration() {
 if (track.getAttribute("nodownload") != null) {
     o('.ap_download').style.display = 'none';
 }
+if (track.getAttribute("infinite") != null) {
+    o('.ap_time').style.display = 'none';
+}
 
 function ap_download() {
     window.open(track.currentSrc)
